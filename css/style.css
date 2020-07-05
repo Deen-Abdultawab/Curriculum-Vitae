@@ -1,0 +1,82 @@
+body {
+	height: 100%;
+	background: rgba(250,247,247,0.7);
+}
+
+html {
+	height: 100%;
+}
+.jumbotron {
+	font-weight: bold;
+	border: 1px solid lightgrey;
+	box-shadow: -1px 0.5px 4px lightgrey,
+				1px -0.5px 4px grey;
+	margin: 10px;
+}
+#header .name {
+	font-size: 55px;
+	font-weight: bolder;
+}
+
+#education li {
+	margin-bottom: 20px;
+}
+
+#education hr {
+	border: 0.7px solid lightgrey;
+	box-shadow: -1px 0.5px 2px lightgrey,
+				1px -0.5px 2px rgba(250,247,247,0.7);
+}
+
+#education .institution {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#education .date {
+	font-weight: bold;
+	float: right;
+}
+
+#experience .role li {
+	font-size: 17px;
+}
+
+#gallery img {
+	border-radius: 50%;
+	border: 1px solid grey;
+	box-shadow: -2px 4px 8px grey,
+				2px -4px 8px rgba(250,247,247,0.7);
+	object-fit: cover;
+}
+
+#footer .designedBy {
+	font-size: 20px;
+}
+
+@media(max-width: 610px) {
+	#header .name {
+	font-size: 40px;
+	font-weight: bolder;
+	
+}
+
+#header span {
+	margin-left: 100px;
+}
+
+#education .institution {
+	font-weight: bold;
+	font-size: 17px;
+}
+
+}
+@media(max-width: 740px) {
+	#education .date {
+	font-weight: bold;
+	padding-bottom: 0px;
+	margin: 0px;
+	display: block;
+	float: none;
+}
+}
